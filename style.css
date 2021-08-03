@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'MonteCarlo', cursive;
+  font-family: cursive, sans-serif;
 }
 
 html {
@@ -13,5 +13,5 @@ html {
 
 header {
   text-align: center;
-  margin: 1rem;;
+  margin: 1rem;
 }

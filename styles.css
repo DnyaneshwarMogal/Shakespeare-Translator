@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: cursive, sans-serif;
+  font-family: cursive, serif;
 }
 
 html {
@@ -34,6 +34,24 @@ textarea {
   padding: 1rem;
 }
 
+#output-text {
+  margin-left: 20px;
+}
+
+#btn-translate {
+  background: black;
+  border: none;
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: white;
+  margin: auto;
+  display: block;
+  font-weight: bold;
+}
+
 .main-section {
   width: 800px;
   max-width: 80%;
@@ -43,4 +61,39 @@ textarea {
   box-shadow: 0 0 10px 2px;
   margin-left: auto;
   margin-right: auto;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 25px;
+  padding: 0 10px;
+  margin-bottom: 0;
+}
+
+footer ul.social-links {
+  width: 85%;
+  min-height: 5vh;
+  text-align: center;
+}
+
+.social-links li {
+  margin: 1rem 2rem;
+  display: inline-block;
+}
+
+.social-links li a {
+  padding: 0.5rem 0.75rem;
+  color: white;
+}
+
+.social-links li a:hover {
+  background: white;
+  color: black;
+  border-radius: 0.5rem;
+}
+
+i.fab {
+  margin-right: 0.25rem;
 }
